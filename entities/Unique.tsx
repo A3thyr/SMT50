@@ -14,20 +14,20 @@ export default function Unique() {
         <div className="flex flex-col gap-[5px] min-[1440px]:w-[34%]">
           <button
             onClick={handleClick}
-            className="rounded-[10px] bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]"
+            className="rounded-[10px] border-[1px] border-transparent bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]"
           >
             Community-Driven Index Adjustments
           </button>
-          <button className="rounded-[10px] bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
+          <button className="rounded-[10px] border-[1px] border-transparent bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
             Efficiency with Solana Blockchain
           </button>
-          <button className="rounded-[10px] bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
+          <button className="rounded-[10px] border-[1px] border-transparent bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
             Market Relevance
           </button>
-          <button className="rounded-[10px] bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
+          <button className="rounded-[10px] border-[1px] border-transparent bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
             Real-Time Index Tracking and Analytics
           </button>
-          <button className="rounded-[10px] bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
+          <button className="rounded-[10px] border-[1px] border-transparent bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
             Focus on Meme Coins
           </button>
         </div>

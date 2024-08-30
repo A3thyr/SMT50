@@ -7,6 +7,7 @@ import LinkArrow from "@/public/LinkArrow.svg";
 import TgIconDef from "@/public/tgicondef.svg";
 import DiscIconDef from "@/public/discicondef.svg";
 import TwitterIconDef from "@/public/twittericondef.svg";
+import { cn } from "@/shared/lib/utils/cn";
 
 export default function Header() {
   return (
@@ -16,15 +17,21 @@ export default function Header() {
         <div className="item-center flex gap-[60px] pr-[39px]">
           <Link
             href={""}
-            className="text-[20px] font-medium leading-[16px] text-white"
-            target="_blank"
+            className={cn(
+              "hover:bg-hoverGradient text-[20px] font-medium leading-[16px] text-white transition-all hover:bg-clip-text hover:text-transparent",
+              "textShadow",
+            )}
+            // target="_blank"
           >
             Docs
           </Link>
           <Link
             href={""}
-            className="text-[20px] font-medium leading-[16px] text-white"
-            target="_blank"
+            className={cn(
+              "hover:bg-hoverGradient text-[20px] font-medium leading-[16px] text-white transition-all hover:bg-clip-text hover:text-transparent",
+              "textShadow",
+            )}
+            // target="_blank"
           >
             Contact
           </Link>
@@ -32,34 +39,37 @@ export default function Header() {
         <div className="flex items-center gap-[10px]">
           <Link
             href={""}
-            target="_blank"
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#110C15]"
+            // target="_blank"
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#110C15] transition hover:bg-[#1B1322]"
           >
             <TgIconDef />
           </Link>
           <Link
             href={""}
-            target="_blank"
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#110C15]"
+            // target="_blank"
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#110C15] transition hover:bg-[#1B1322]"
           >
             <DiscIconDef />
           </Link>
           <Link
             href={""}
-            target="_blank"
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#110C15]"
+            // target="_blank"
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#110C15] transition hover:bg-[#1B1322]"
           >
             <TwitterIconDef />
           </Link>
         </div>
+        <button className="rounded bg-gradient-to-r from-blue-500 to-purple-500 p-1 font-semibold text-white">
+          <span className="flex w-full rounded bg-gray-900 p-2 text-white">Gradient border</span>
+        </button>
         <Link
-          href="/wallet"
-          className="flex items-center gap-[30px] rounded-[100px] border-[1px] border-white px-[20px] py-[10px] min-[1024px]:px-[30px] min-[1024px]:py-[18px]"
+          href="/"
+          className="bg-hoverGradient flex items-center rounded-[100px] p-[2px] text-[18px] font-medium leading-7 text-white transition-all hover:bg-clip-text hover:text-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white"
         >
-          <span className="text-[18px] font-medium leading-7 text-white min-[1024px]:leading-[18px]">
+          <span className="flex w-full flex-row items-center gap-[30px] rounded-[100px] bg-transparent px-[20px] py-[10px] min-[1024px]:px-[30px] min-[1024px]:py-[18px] min-[1024px]:leading-[18px]">
             Mint Index Key
+            <LinkArrow />
           </span>
-          <LinkArrow />
         </Link>
         <div className="flex min-[1024px]:hidden">
           <BurgerMenu />

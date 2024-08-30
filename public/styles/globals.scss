@@ -23,11 +23,31 @@ body {
   }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
   .mobileBg {
     background-image: url("../mobileBg.png");
     background-size: cover;
   }
+}
+
+// .borderGrad {
+//   &:hover {
+//     border-image-source: linear-gradient(97.23deg, #3ec4db -7.44%, #764afb 99.83%, #20e6ab 99.85%);
+//   }
+// }
+
+.textShadow {
+  &:hover {
+    text-shadow: 0px 0px 10px #5b42ff;
+  }
+  &:active {
+    text-shadow: none;
+  }
+}
+
+.gifBgDesktop {
+  background-image: url("../tipogifDesktop.jpg");
+  background-size: cover;
 }
 
 .h3StrokePink {

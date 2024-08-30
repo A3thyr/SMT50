@@ -3,6 +3,7 @@ import React from "react";
 import memecoinMobile from "@/public/memecoinMobile.png";
 import CirclePngDesk from "@/public/circleimgdesktop.png";
 import MemeCoinDesk from "@/public/MemeCoinsDesk.png";
+import { cn } from "@/shared/lib/utils/cn";
 
 export default function IntroText() {
   return (
@@ -17,10 +18,15 @@ export default function IntroText() {
         </p>
       </div>
       <div className="flex flex-row gap-[10px] pt-[30px] min-[1440px]:w-[39%] min-[1440px]:gap-[20px] min-[1440px]:pt-[50px]">
-        <button className="rounded-[100px] bg-standBtnGrad px-[28px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white min-[1440px]:w-[61%]">
+        <button className="hover:shadow-buttonHoverShadow active:bg-activeButtonGrad rounded-[100px] bg-standBtnGrad px-[28px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all active:shadow-none min-[1440px]:w-[61%]">
           Mint Index Key
         </button>
-        <button className="rounded-[100px] border-[1px] border-white bg-transparent px-[48.5px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white min-[1440px]:w-[39%]">
+        <button
+          className={cn(
+            "hover:bg-hoverGradient rounded-[100px] border-[1px] border-solid bg-transparent px-[48.5px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all hover:border-[1px] hover:border-solid hover:border-transparent hover:bg-clip-text hover:text-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white min-[1440px]:w-[39%]",
+            "borderGrad",
+          )}
+        >
           Read More
         </button>
       </div>

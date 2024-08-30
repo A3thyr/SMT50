@@ -20,22 +20,22 @@ export default function Footer() {
         <div className="flex items-center gap-[10px]">
           <Link
             href={""}
-            target="_blank"
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619]"
+            // target="_blank"
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
           >
-            <TgIconDef />
+            <TgIconDef className="active:fill-transparent" />
           </Link>
           <Link
             href={""}
-            target="_blank"
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619]"
+            // target="_blank"
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
           >
             <DiscIconDef />
           </Link>
           <Link
             href={""}
-            target="_blank"
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619]"
+            // target="_blank"
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
           >
             <TwitterIconDef />
           </Link>
