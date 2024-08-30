@@ -1,6 +1,46 @@
-@import './normalize.scss';
+@import "./normalize.scss";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  :root {
+    // Primary palette
+    --white: #ffffff;
+    --black: #000000;
+  }
+}
+
+body {
+  background-color: #000000;
+}
+
+@media (min-width: 1024px) {
+  .desktopBg {
+    background-image: url("../bgdesktop.png");
+    background-size: cover;
+  }
+}
+
+@media (max-width: 1023px) {
+  .mobileBg {
+    background-image: url("../mobileBg.png");
+    background-size: cover;
+  }
+}
+
+.h3StrokePink {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff00a8;
+}
+
+.h3StrokePurple {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #8d23f7;
+}
+
+.h3StrokeBlue {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #0047ff;
+}
