@@ -69,17 +69,17 @@ export default function Unique() {
   const [isSlide, setIsSlide] = useState(0);
 
   return (
-    <div className="font-montserrat flex flex-col items-center gap-[40px] pt-[100px] min-[1440px]:items-start min-[1440px]:gap-[50px] min-[1440px]:pt-[250px]">
-      <h2 className="font-manrope bg-text-bluenwhite-radgrad bg-clip-text text-center text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-start min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
+    <div className="flex flex-col items-center gap-[40px] pt-[100px] font-montserrat min-[1440px]:items-start min-[1440px]:gap-[50px] min-[1440px]:pt-[250px]">
+      <h2 className="bg-text-bluenwhite-radgrad bg-clip-text text-center font-manrope text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-start min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
         What makes the SMT50 unique
       </h2>
       <div className="flex flex-col items-center gap-[20px] rounded-[20px] bg-black p-[20px] min-[1440px]:h-fit min-[1440px]:w-full min-[1440px]:flex-row min-[1440px]:p-[50px]">
-        <div className="flex flex-col gap-[5px] min-[1440px]:w-[34%]">
+        <div className="flex flex-col gap-[5px] min-[1440px]:w-[41%]">
           {buttons.map((button, index) => (
             <button
               key={`buttons-${index}`}
               onClick={() => setIsSlide(index)}
-              className="text-nowrap rounded-[10px] border-[1px] border-transparent bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]"
+              className="rounded-[10px] border-[1px] border-transparent bg-[#110C15] px-[30px] py-[15px] text-start text-[15px] font-normal leading-[18px] text-white hover:border-[1px] hover:border-dashed hover:border-[#8D23F7] focus:border-[1px] focus:border-dashed focus:border-[#fff] min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]"
             >
               {button.text}
             </button>
@@ -96,7 +96,9 @@ export default function Unique() {
             <div
               className={`absolute right-0 top-0 h-[60px] w-[60px] rounded-bl-[800px] rounded-tr-[200px] min-[1440px]:size-[100px] ${index === 3 && "bg-[#00A3FF]"} bg-[${card.color}]`}
             >
-              <div className="absolute right-0 pr-[11px] pt-[11px]">{card.icon}</div>
+              <div className="absolute right-0 min-[1024px]:pr-[11px] min-[1024px]:pt-[11px]">
+                {card.icon}
+              </div>
             </div>
             <h3
               className={`text-[24px] font-medium leading-[28.8px] ${index === 3 && "text-[#00A3FF]"} text-[${card.color}] min-[1440px]:text-[35px] min-[1440px]:leading-[42px]`}

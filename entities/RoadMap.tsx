@@ -7,7 +7,7 @@ import TimerSvg from "@/public/timer.svg";
 export default function RoadMap() {
   return (
     <div className="z-[999] flex flex-col items-center pt-[100px] min-[1440px]:w-full min-[1440px]:items-start">
-      <h2 className="font-manrope bg-text-pink-radgrad bg-clip-text text-center text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
+      <h2 className="bg-text-pink-radgrad bg-clip-text text-center font-manrope text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
         Roadmap
       </h2>
       <div className="flex flex-col gap-[20px] pt-[40px] min-[1440px]:w-full">
@@ -22,7 +22,7 @@ export default function RoadMap() {
             >
               Q4 2024
             </h3>
-            <div className="font-montserrat mt-[30px] flex w-[336px] flex-col items-center gap-[10px] min-[1440px]:mt-[0px] min-[1440px]:w-fit min-[1440px]:flex-row min-[1440px]:flex-wrap min-[1440px]:gap-[20px]">
+            <div className="mt-[30px] flex w-[336px] flex-col items-center gap-[10px] font-montserrat min-[1440px]:mt-[0px] min-[1440px]:w-fit min-[1440px]:flex-row min-[1440px]:flex-wrap min-[1440px]:gap-[20px]">
               <div className="flex w-full flex-row items-center justify-start gap-[10px] rounded-[50px] border-[1px] border-solid border-white px-[20px] py-[10px] min-[1440px]:w-fit">
                 <VerifySvg />
                 <h4 className="text-[15px] font-normal leading-[18px] text-white min-[1440px]:text-[20px] min-[1440px]:leading-[24px]">
@@ -37,7 +37,7 @@ export default function RoadMap() {
               </div>
               <div className="flex w-full flex-row items-center justify-start gap-[10px] rounded-[50px] border-[1px] border-solid border-white px-[20px] py-[10px] min-[1440px]:w-fit">
                 <VerifySvg />
-                <h4 className="text-[15px] font-normal leading-[18px] text-white min-[1440px]:text-[20px] min-[1440px]:leading-[24px]">
+                <h4 className="text-[13px] font-normal leading-[18px] text-white min-[1440px]:text-[20px] min-[1440px]:leading-[24px]">
                   $SMT50 Farming for index key holders
                 </h4>
               </div>
@@ -67,7 +67,7 @@ export default function RoadMap() {
             >
               Q1 2025
             </h3>
-            <div className="font-montserrat mt-[30px] flex w-[336px] flex-col items-center gap-[10px] min-[1440px]:mt-[0px] min-[1440px]:w-fit min-[1440px]:flex-row min-[1440px]:flex-wrap min-[1440px]:gap-[20px]">
+            <div className="mt-[30px] flex w-[336px] flex-col items-center gap-[10px] font-montserrat min-[1440px]:mt-[0px] min-[1440px]:w-fit min-[1440px]:flex-row min-[1440px]:flex-wrap min-[1440px]:gap-[20px]">
               <div className="flex w-full flex-row items-center justify-start gap-[10px] rounded-[50px] border-[1px] border-dashed border-white px-[20px] py-[10px] min-[1440px]:w-fit">
                 <RefreshSvg />
                 <h4 className="text-[15px] font-normal leading-[18px] text-white min-[1440px]:text-[20px] min-[1440px]:leading-[24px]">
@@ -106,7 +106,7 @@ export default function RoadMap() {
             >
               Q2 2025
             </h3>
-            <div className="font-montserrat mt-[30px] flex w-[336px] flex-col items-center gap-[10px] min-[1440px]:mt-[0px] min-[1440px]:w-fit min-[1440px]:flex-row min-[1440px]:flex-wrap min-[1440px]:gap-[20px]">
+            <div className="mt-[30px] flex w-[336px] flex-col items-center gap-[10px] font-montserrat min-[1440px]:mt-[0px] min-[1440px]:w-fit min-[1440px]:flex-row min-[1440px]:flex-wrap min-[1440px]:gap-[20px]">
               <div className="flex w-full flex-row items-center justify-start gap-[10px] rounded-[50px] border-[1px] border-dashed border-[#FFFFFF66] px-[20px] py-[10px] min-[1440px]:w-fit">
                 <TimerSvg />
                 <h4 className="text-[15px] font-normal leading-[18px] text-white min-[1440px]:text-[20px] min-[1440px]:leading-[24px]">
