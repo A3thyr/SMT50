@@ -2,6 +2,14 @@ import Image from "next/image";
 import React from "react";
 import keyMobile from "@/public/key-mobile.png";
 import keyDesktop from "@/public/keydesktop.png";
+import PinkLineDesktop from "@/public/pinkroundline.svg";
+import PurpleLineDesktop from "@/public/purpleline.svg";
+import BlueLineDesktop from "@/public/blueline.svg";
+import AquaLineDesktop from "@/public/aqualine.svg";
+import PinkLineMobile from "@/public/pinklinemobile.svg";
+import PurpleLineMobile from "@/public/purplelinemobile.svg";
+import BlueLineMobile from "@/public/bluelinemobile.svg";
+import AquaLineMobile from "@/public/aqualinemobile.svg";
 
 export default function Benefits() {
   return (
@@ -11,7 +19,8 @@ export default function Benefits() {
       </h2>
       <div className="flex flex-col items-center pt-[40px] min-[1440px]:w-full min-[1440px]:flex-row min-[1440px]:justify-between min-[1440px]:pt-[110px]">
         <div className="relative flex flex-col items-center">
-          <div className="absolute h-[20px] w-[240px] rounded-[40%] bg-[#FF00A8]" />
+          <PinkLineDesktop className="absolute hidden min-[1440px]:block" />
+          <PinkLineMobile className="absolute block min-[1440px]:hidden" />
           <div className="mt-[5px] flex h-[300px] w-[300px] flex-col items-center justify-center gap-[10px] rounded-[50%] border-[2px] border-solid border-[#ffffff1A] bg-transparentCardGrad px-[30px] py-[87px] text-center backdrop-blur-[25px] min-[1440px]:size-[369px] min-[1440px]:px-[40px] min-[1440px]:py-[85.5px]">
             <h3 className="text-[18px] font-semibold leading-[23.4px] text-[#FF00A8] min-[1440px]:text-[24px] min-[1440px]:leading-[31.2px]">
               $SMT50 tokens distribution among Index Key holders
@@ -23,7 +32,8 @@ export default function Benefits() {
           </div>
         </div>
         <div className="relative mt-[-48px] flex flex-col items-center min-[1440px]:absolute min-[1440px]:left-[259px] min-[1440px]:top-[854px]">
-          <div className="absolute h-[20px] w-[240px] rounded-[40%] bg-[#8D23F7]" />
+          <PurpleLineDesktop className="absolute hidden min-[1440px]:block" />
+          <PurpleLineMobile className="absolute block min-[1440px]:hidden" />
           <div className="mt-[5px] flex h-[300px] w-[300px] flex-col items-center justify-center gap-[10px] rounded-[50%] border-[2px] border-solid border-[#ffffff1A] bg-transparentCardGrad px-[30px] py-[87px] text-center backdrop-blur-[25px] min-[1440px]:size-[369px] min-[1440px]:px-[40px] min-[1440px]:py-[85.5px]">
             <h3 className="text-[18px] font-semibold leading-[23.4px] text-[#8D23F7] min-[1440px]:text-[24px] min-[1440px]:leading-[31.2px]">
               Participation in the decision-making process for the further development of the Index
@@ -34,7 +44,8 @@ export default function Benefits() {
           </div>
         </div>
         <div className="relative mt-[-50px] flex flex-col items-center min-[1440px]:absolute min-[1440px]:right-[259px] min-[1440px]:top-[854px]">
-          <div className="absolute h-[20px] w-[240px] rounded-[40%] bg-[#0047FF]" />
+          <BlueLineDesktop className="absolute hidden min-[1440px]:block" />
+          <BlueLineMobile className="absolute block min-[1440px]:hidden" />
           <div className="mt-[5px] flex h-[300px] w-[300px] flex-col items-center justify-center gap-[10px] rounded-[50%] border-[2px] border-solid border-[#ffffff1A] bg-transparentCardGrad px-[30px] py-[87px] text-center backdrop-blur-[25px] min-[1440px]:size-[369px] min-[1440px]:px-[40px] min-[1440px]:py-[85.5px]">
             <h3 className="text-[18px] font-semibold leading-[23.4px] text-[#0047FF] min-[1440px]:text-[24px] min-[1440px]:leading-[31.2px]">
               Farming of the $SMT50 tokens
@@ -46,7 +57,8 @@ export default function Benefits() {
           </div>
         </div>
         <div className="relative mt-[-55px] flex flex-col items-center">
-          <div className="absolute h-[20px] w-[240px] rounded-[40%] bg-[#00FFD1]" />
+          <AquaLineDesktop className="absolute hidden min-[1440px]:block" />
+          <AquaLineMobile className="absolute block min-[1440px]:hidden" />
           <div className="mt-[5px] flex h-[300px] w-[300px] flex-col items-center justify-center gap-[10px] rounded-[50%] border-[2px] border-solid border-[#ffffff1A] bg-transparentCardGrad px-[30px] py-[87px] text-center backdrop-blur-[25px] min-[1440px]:size-[369px] min-[1440px]:px-[40px] min-[1440px]:py-[85.5px]">
             <h3 className="text-[18px] font-semibold leading-[23.4px] text-[#00FFD1] min-[1440px]:text-[24px] min-[1440px]:leading-[31.2px]">
               Airdrops and more Benefits
