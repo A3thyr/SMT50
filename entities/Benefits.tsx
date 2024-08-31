@@ -13,8 +13,8 @@ import AquaLineMobile from "@/public/aqualinemobile.svg";
 
 export default function Benefits() {
   return (
-    <div className="relative flex flex-col items-center pt-[100px] min-[1440px]:w-full min-[1440px]:pt-[250px]">
-      <h2 className="bg-text-pink-radgrad bg-clip-text text-center text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
+    <div className="font-montserrat relative flex flex-col items-center pt-[100px] min-[1440px]:w-full min-[1440px]:pt-[250px]">
+      <h2 className="font-manrope bg-text-pink-radgrad bg-clip-text text-center text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
         Benefits for Index Key Holders
       </h2>
       <div className="flex flex-col items-center pt-[40px] min-[1440px]:w-full min-[1440px]:flex-row min-[1440px]:justify-between min-[1440px]:pt-[110px]">

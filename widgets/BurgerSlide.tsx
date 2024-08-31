@@ -22,7 +22,7 @@ export const BurgerSlide: FC<BurgerSlideProps> = (props) => {
       transition={{ duration: 0.2 }}
       className="absolute left-[0px] top-[80px] z-[998] flex w-full flex-col items-center gap-[60px] rounded-b-[16px] bg-black py-[60px]"
     >
-      <div className="flex flex-col items-center gap-[50px]">
+      <div className="font-montserrat flex flex-col items-center gap-[50px]">
         <Link
           href={""}
           className={cn(

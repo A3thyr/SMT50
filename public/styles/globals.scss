@@ -36,23 +36,23 @@ body {
 //   }
 // }
 
-.btnBorderGrad {
-  &:hover {
-    border-radius: 100px;
-    background:
-      transparent padding-box,
-      linear-gradient(97.23deg, #3ec4db -7.44%, #764afb 99.83%, #20e6ab 99.85%) border-box;
-    border-image-slice: 1;
-    -webkit-mask-box-image: linear-gradient(
-      97.23deg,
-      #3ec4db -7.44%,
-      #764afb 99.83%,
-      #20e6ab 99.85%
-    );
-    mask-border: linear-gradient(97.23deg, #3ec4db -7.44%, #764afb 99.83%, #20e6ab 99.85%);
-    border-image-source: linear-gradient(97.23deg, #3ec4db -7.44%, #764afb 99.83%, #20e6ab 99.85%);
-  }
-}
+// .btnBorderGrad {
+//   &:hover {
+//     border-radius: 100px;
+//     background:
+//       transparent padding-box,
+//       linear-gradient(97.23deg, #3ec4db -7.44%, #764afb 99.83%, #20e6ab 99.85%) border-box;
+//     border-image-slice: 1;
+//     -webkit-mask-box-image: linear-gradient(
+//       97.23deg,
+//       #3ec4db -7.44%,
+//       #764afb 99.83%,
+//       #20e6ab 99.85%
+//     );
+//     mask-border: linear-gradient(97.23deg, #3ec4db -7.44%, #764afb 99.83%, #20e6ab 99.85%);
+//     border-image-source: linear-gradient(97.23deg, #3ec4db -7.44%, #764afb 99.83%, #20e6ab 99.85%);
+//   }
+// }
 
 .textShadow {
   &:hover {

@@ -18,9 +18,11 @@ export default function Header() {
   };
 
   return (
-    <header className="relative top-0 flex w-full flex-row items-center justify-between gap-[15px] rounded-2xl bg-black px-[20px] py-[15px] min-[425px]:gap-[41px] min-[1440px]:px-[59px]">
+    <header className="font-montserrat relative top-0 flex w-full flex-row items-center justify-between gap-[15px] rounded-2xl bg-black px-[20px] py-[15px] min-[425px]:gap-[41px] min-[1440px]:px-[59px]">
       <BurgerSlide isOpen={setActive} />
-      <Image src={logo} alt="logo" className="z-[999]" />
+      <Link href={`/`}>
+        <Image src={logo} alt="logo" className="z-[999]" />
+      </Link>
       <div
         onClick={handleClick}
         className={cn("fixed inset-0 z-[1] bg-[#00000080]", setActive === false && "hidden")}

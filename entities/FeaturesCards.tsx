@@ -43,8 +43,8 @@ const cards = [
 
 export default function FeaturesCards() {
   return (
-    <div className="flex flex-col items-center pt-[100px] min-[1440px]:items-start min-[1440px]:pt-[670px]">
-      <h2 className="bg-text-bluenwhite-radgrad bg-clip-text text-center text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
+    <div className="font-montserrat flex flex-col items-center pt-[100px] min-[1440px]:items-start min-[1440px]:pt-[670px]">
+      <h2 className="font-manrope bg-text-bluenwhite-radgrad bg-clip-text text-center text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
         Main Features
       </h2>
       <div className="flex h-fit flex-col items-center min-[1440px]:flex-row min-[1440px]:gap-[20px] min-[1440px]:pt-[50px]">
@@ -74,7 +74,7 @@ export default function FeaturesCards() {
         <Image
           src={IguessGifDesktop}
           alt="gifdesktop"
-          className="hidden h-full rounded-[50px] bg-cover object-cover min-[1440px]:block min-[1440px]:w-full"
+          className="hidden h-[589px] rounded-[50px] bg-cover object-cover min-[1440px]:block min-[1440px]:w-full"
         />
         <Image src={IguessGif} alt="gif" className="mt-[20px] block min-[1440px]:hidden" />
       </div>

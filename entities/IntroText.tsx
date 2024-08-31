@@ -7,9 +7,9 @@ import { cn } from "@/shared/lib/utils/cn";
 
 export default function IntroText() {
   return (
-    <div className="flex flex-col items-center pt-[50px] min-[1440px]:items-start min-[1440px]:pt-[130px]">
+    <div className="font-montserrat flex flex-col items-center pt-[50px] min-[1440px]:items-start min-[1440px]:pt-[130px]">
       <div className="z-[2] flex flex-col gap-[15px] min-[1440px]:w-[47%] min-[1440px]:items-start min-[1440px]:gap-[30px]">
-        <p className="bg-text-bluenwhite-radgrad bg-clip-text text-center text-[35px] font-medium leading-[42px] text-transparent min-[1440px]:text-start min-[1440px]:text-[75px] min-[1440px]:leading-[90px]">
+        <p className="font-manrope bg-text-bluenwhite-radgrad bg-clip-text text-center text-[35px] font-medium leading-[42px] text-transparent min-[1440px]:text-start min-[1440px]:text-[75px] min-[1440px]:leading-[90px]">
           Invest in a diversified portfolio of SMT50 memecoins easily
         </p>
         <p className="text-center text-[15px] font-normal leading-[22.5px] text-white min-[1440px]:text-start min-[1440px]:text-[24px] min-[1440px]:leading-[36px]">
@@ -23,7 +23,7 @@ export default function IntroText() {
         </button>
         <button
           className={cn(
-            "hover:bg-hoverGradient relative flex items-center justify-center rounded-[100px] border-[1px] border-solid bg-transparent px-[48.5px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all hover:border-[1px] hover:border-solid hover:border-transparent hover:bg-clip-text hover:text-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white min-[1440px]:w-[39%]",
+            "hover:bg-hoverGradient relative flex items-center justify-center rounded-[100px] border-[1px] border-solid bg-transparent px-[48.5px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all hover:border-[1px] hover:border-solid hover:border-white hover:bg-clip-text hover:text-transparent active:border-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white min-[1440px]:w-[39%]",
             "btnBorderGrad",
           )}
         >

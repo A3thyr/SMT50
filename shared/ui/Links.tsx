@@ -17,7 +17,7 @@ export const Links = () => {
         href={"/"}
         className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#110C15] transition hover:bg-[#1B1322]"
       >
-        <DiscIconDuplic />
+        <DiscIconDuplic className="text-white" />
       </Link>
 
       <Link
