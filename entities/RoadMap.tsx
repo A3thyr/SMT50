@@ -4,8 +4,6 @@ import VerifySvg from "@/public/verify.svg";
 import RefreshSvg from "@/public/refresh-square-2.svg";
 import TimerSvg from "@/public/timer.svg";
 
-const cards = [{}, {}, {}];
-
 export default function RoadMap() {
   return (
     <div className="z-[999] flex flex-col items-center pt-[100px] min-[1440px]:w-full min-[1440px]:items-start">

@@ -2,9 +2,9 @@ import React from "react";
 import logo from "@/public/photo_2024-06-20_00-41-04-Photoroom 1.png";
 import Image from "next/image";
 import Link from "next/link";
-import TgIconDef from "@/public/tgicondef.svg";
-import DiscIconDef from "@/public/discicondef.svg";
-import TwitterIconDef from "@/public/twittericondef.svg";
+import TgIconDefFoot from "@/public/tgicondef.svg";
+import DiscIconDefFoot from "@/public/discicondef.svg";
+import TwitterIconDefFoot from "@/public/twittericondef.svg";
 
 export default function Footer() {
   return (
@@ -17,27 +17,24 @@ export default function Footer() {
             Get ready to level up with SMT50
           </span>
         </div>
-        <div className="flex items-center gap-[10px]">
+        <div className="flex flex-row items-center gap-[10px]">
           <Link
             href={""}
-            // target="_blank"
             className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
           >
-            <TgIconDef className="active:fill-transparent" />
+            <TgIconDefFoot />
           </Link>
           <Link
             href={""}
-            // target="_blank"
             className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
           >
-            <DiscIconDef />
+            <DiscIconDefFoot />
           </Link>
           <Link
             href={""}
-            // target="_blank"
             className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
           >
-            <TwitterIconDef />
+            <TwitterIconDefFoot />
           </Link>
         </div>
       </div>

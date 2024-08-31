@@ -23,8 +23,8 @@ export default function IntroText() {
         </button>
         <button
           className={cn(
-            "hover:bg-hoverGradient rounded-[100px] border-[1px] border-solid bg-transparent px-[48.5px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all hover:border-[1px] hover:border-solid hover:border-transparent hover:bg-clip-text hover:text-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white min-[1440px]:w-[39%]",
-            "borderGrad",
+            "hover:bg-hoverGradient relative flex items-center justify-center rounded-[100px] border-[1px] border-solid bg-transparent px-[48.5px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all hover:border-[1px] hover:border-solid hover:border-transparent hover:bg-clip-text hover:text-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white min-[1440px]:w-[39%]",
+            "btnBorderGrad",
           )}
         >
           Read More
@@ -33,17 +33,17 @@ export default function IntroText() {
       <Image
         src={memecoinMobile}
         alt="memecoin"
-        className="right-0 mt-[50px] block max-w-none overflow-hidden min-[1440px]:hidden"
+        className="absolute right-0 top-[488px] block max-w-none overflow-hidden min-[1024px]:hidden"
       />
       <Image
         src={CirclePngDesk}
         alt="circlepngdesk"
-        className="absolute right-0 hidden min-[1440px]:block"
+        className="absolute right-0 hidden min-[1024px]:block"
       />
       <Image
         src={MemeCoinDesk}
         alt="memecoinsdesk"
-        className="absolute right-[63px] top-[112px] hidden min-[1440px]:block"
+        className="absolute right-[63px] top-[112px] hidden min-[1024px]:block"
       />
     </div>
   );
