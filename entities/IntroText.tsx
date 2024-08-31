@@ -23,7 +23,7 @@ export default function IntroText() {
         </button>
         <button
           className={cn(
-            "hover:bg-hoverGradient relative flex items-center justify-center rounded-[100px] border-[1px] border-solid bg-transparent px-[48.5px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all hover:border-[1px] hover:border-solid hover:border-white hover:bg-clip-text hover:text-transparent active:border-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white min-[1440px]:w-[39%]",
+            "hover:bg-hoverGradient relative flex items-center justify-center rounded-[100px] border-[1px] border-solid bg-transparent px-[44.5px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all hover:border-[1px] hover:border-solid hover:border-[#1766b0] hover:bg-clip-text hover:text-transparent active:border-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white min-[1440px]:w-[39%]",
             "btnBorderGrad",
           )}
         >

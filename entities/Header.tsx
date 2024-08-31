@@ -57,9 +57,10 @@ export default function Header() {
         </div>
         <Link
           href="/"
-          className="flex items-center rounded-[100px] border-[1px] border-solid border-white bg-transparent p-[2px] text-[18px] font-medium leading-7 text-white transition-all hover:bg-standBtnGrad hover:bg-clip-text hover:text-transparent active:border-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white"
+          id="arrowsvg"
+          className="flex items-center rounded-[100px] border-[1px] border-solid border-white bg-transparent p-[2px] text-[18px] font-medium leading-7 text-white transition-all hover:border-[#1766b0] hover:bg-standBtnGrad hover:bg-clip-text hover:text-transparent active:border-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white"
         >
-          <span className="flex w-full flex-row items-center gap-[30px] rounded-[100px] bg-transparent px-[20px] py-[10px] min-[1024px]:px-[30px] min-[1024px]:py-[18px] min-[1024px]:leading-[18px]">
+          <span className="flex w-full flex-row items-center gap-[20px] rounded-[100px] bg-transparent px-[20px] py-[10px] min-[1024px]:px-[30px] min-[1024px]:py-[18px] min-[1024px]:leading-[18px]">
             Mint Index Key
             <LinkArrow />
           </span>

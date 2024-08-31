@@ -1,3 +1,10 @@
 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14.6643 0H6.64991V1.33573H13.7199L0 15.0556L0.944359 16L14.6643 2.28009V9.35009H16V1.33573C16 0.599073 15.4009 0 14.6643 0Z" fill="white"/>
+<defs>
+    <linearGradient id="Arrow_Svg" >
+        <stop stop-color="#3EC4DB"/>
+        <stop offset="1" stop-color="#764AFB"/>
+        <stop offset="1.0001" stop-color="#20E6AB"/>
+    </linearGradient>
+</defs>
 </svg>

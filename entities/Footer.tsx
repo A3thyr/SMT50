@@ -19,20 +19,20 @@ export default function Footer() {
         </div>
         <div className="flex flex-row items-center gap-[10px]">
           <Link
-            href={""}
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
+            href={"/"}
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322] active:bg-standBtnGrad"
           >
             <TgIconDefFoot />
           </Link>
           <Link
-            href={""}
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
+            href={"/"}
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322] active:bg-standBtnGrad"
           >
             <DiscIconDefFoot />
           </Link>
           <Link
-            href={""}
-            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322]"
+            href={"/"}
+            className="flex h-[40px] w-[40px] items-center justify-center rounded-[50%] bg-[#191619] transition hover:bg-[#1B1322] active:bg-standBtnGrad"
           >
             <TwitterIconDefFoot />
           </Link>

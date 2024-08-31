@@ -54,6 +54,37 @@ body {
 //   }
 // }
 
+a {
+  &:active {
+    svg {
+      path {
+        fill: #000000;
+      }
+    }
+  }
+}
+
+#arrowsvg {
+  &:hover {
+    svg {
+      path {
+        fill: #1766b0;
+      }
+    }
+  }
+  &:active {
+    svg {
+      path {
+        fill: white;
+      }
+    }
+  }
+}
+
+.svgIcons {
+  fill: black !important;
+}
+
 .textShadow {
   &:hover {
     text-shadow: 0px 0px 10px #5b42ff;
