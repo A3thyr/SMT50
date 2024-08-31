@@ -59,9 +59,6 @@ export default function Header() {
             <TwitterIconDef />
           </Link>
         </div>
-        <button className="rounded bg-gradient-to-r from-blue-500 to-purple-500 p-1 font-semibold text-white">
-          <span className="flex w-full rounded bg-gray-900 p-2 text-white">Gradient border</span>
-        </button>
         <Link
           href="/"
           className="bg-hoverGradient flex items-center rounded-[100px] p-[2px] text-[18px] font-medium leading-7 text-white transition-all hover:bg-clip-text hover:text-transparent active:bg-standBtnGrad active:bg-clip-border active:text-white"
