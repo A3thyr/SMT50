@@ -2,7 +2,7 @@ import React from "react";
 
 export default function JoinProject() {
   return (
-    <div className="z-[0] flex flex-col items-center pt-[706px] font-montserrat min-[1280px]:items-start min-[1280px]:pt-[300px]">
+    <div className="z-[0] flex flex-col items-center pt-[706px] font-montserrat min-[1280px]:items-start min-[1280px]:pt-[800px] min-[1750px]:pt-[300px]">
       <h2 className="bg-text-pink-radgrad bg-clip-text text-center font-manrope text-[30px] font-medium leading-[36px] text-transparent min-[1280px]:text-[50px] min-[1280px]:leading-[60px]">
         Join a unique project
       </h2>

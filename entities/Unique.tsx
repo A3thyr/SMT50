@@ -94,14 +94,14 @@ export default function Unique() {
             )}
           >
             <div
-              className={`absolute right-0 top-0 h-[60px] w-[60px] rounded-bl-[800px] rounded-tr-[200px] min-[1280px]:size-[100px] ${index === 3 && "bg-[#00A3FF]"} bg-[${card.color}]`}
+              className={`absolute right-0 top-0 h-[60px] w-[60px] rounded-bl-[800px] rounded-tr-[200px] min-[1280px]:size-[80px] min-[1560px]:size-[100px] ${index === 3 && "bg-[#00A3FF]"} bg-[${card.color}]`}
             >
               <div className="absolute right-0 min-[1024px]:pr-[11px] min-[1024px]:pt-[11px]">
                 {card.icon}
               </div>
             </div>
             <h3
-              className={`text-[24px] font-medium leading-[28.8px] ${index === 3 && "text-[#00A3FF]"} text-[${card.color}] min-[1280px]:text-[35px] min-[1280px]:leading-[42px]`}
+              className={`z-[20] text-[24px] font-medium leading-[28.8px] ${index === 3 && "text-[#00A3FF]"} text-[${card.color}] min-[1280px]:text-[35px] min-[1280px]:leading-[42px]`}
             >
               {card.title}
             </h3>

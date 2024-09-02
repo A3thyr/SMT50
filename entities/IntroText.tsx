@@ -38,12 +38,12 @@ export default function IntroText() {
       <Image
         src={CirclePngDesk}
         alt="circlepngdesk"
-        className="absolute right-0 hidden min-[1024px]:block min-[1280px]:top-[350px] min-[1750px]:top-auto"
+        className="absolute right-0 hidden min-[1024px]:block min-[1280px]:top-[650px] min-[1750px]:top-auto"
       />
       <Image
         src={MemeCoinDesk}
         alt="memecoinsdesk"
-        className="absolute right-[63px] hidden min-[1024px]:block min-[1280px]:top-[212px] min-[1750px]:top-[112px]"
+        className="absolute right-[63px] hidden min-[1024px]:block min-[1280px]:top-[512px] min-[1750px]:top-[112px]"
       />
     </div>
   );

@@ -75,7 +75,7 @@ export default function FeaturesCards() {
         <Image
           src={SmtGIF}
           alt="gifdesktop"
-          className="w-[1366px]:w-auto mt-[20px] rounded-[50px] bg-cover object-cover min-[1280px]:mt-[0px] min-[1280px]:w-[35%] min-[1366px]:w-[22%] min-[1440px]:h-[389px] min-[1440px]:w-auto"
+          className="w-[1366px]:w-auto mt-[20px] rounded-[50px] bg-cover object-cover min-[1280px]:mt-[0px] min-[1280px]:w-[35%] min-[1366px]:w-[22%] min-[1440px]:w-auto"
         />
       </div>
     </div>
