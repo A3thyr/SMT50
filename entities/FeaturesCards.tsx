@@ -6,6 +6,7 @@ import LockLogo from "@/public/unlock.svg";
 import ElemLogo from "@/public/element-plus.svg";
 import IguessGif from "@/public/shouldvebeengif.png";
 import IguessGifDesktop from "@/public/tipogifDesktop.jpg";
+import SmtGIF from "@/public/smt50gif.gif";
 import { cn } from "@/shared/lib/utils/cn";
 
 const cards = [
@@ -72,11 +73,15 @@ export default function FeaturesCards() {
         </div>
 
         <Image
-          src={IguessGifDesktop}
+          src={SmtGIF}
           alt="gifdesktop"
-          className="hidden h-[429px] rounded-[50px] bg-cover object-cover min-[1440px]:block min-[1440px]:w-full min-[1750px]:h-[589px]"
+          className="hidden h-[389px] rounded-[50px] bg-cover object-cover min-[1440px]:block"
         />
-        <Image src={IguessGif} alt="gif" className="mt-[20px] block min-[1440px]:hidden" />
+        <Image
+          src={SmtGIF}
+          alt="gif"
+          className="mt-[20px] block rounded-[50px] min-[1440px]:hidden"
+        />
       </div>
     </div>
   );
