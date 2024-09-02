@@ -44,28 +44,28 @@ const cards = [
 
 export default function FeaturesCards() {
   return (
-    <div className="flex flex-col items-center pt-[100px] font-montserrat min-[1440px]:items-start min-[1440px]:pt-[670px]">
-      <h2 className="bg-text-bluenwhite-radgrad bg-clip-text text-center font-manrope text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
+    <div className="flex flex-col items-center pt-[100px] font-montserrat min-[1280px]:items-start min-[1280px]:pt-[670px]">
+      <h2 className="bg-text-bluenwhite-radgrad bg-clip-text text-center font-manrope text-[30px] font-medium leading-[36px] text-transparent min-[1280px]:text-[50px] min-[1280px]:leading-[60px]">
         Main Features
       </h2>
-      <div className="flex h-fit flex-col items-center min-[1440px]:flex-row min-[1440px]:gap-[20px] min-[1440px]:pt-[50px]">
-        <div className="mt-[40px] flex flex-col items-center gap-[10px] min-[1440px]:mt-[0px] min-[1440px]:grid min-[1440px]:grid-flow-row min-[1440px]:grid-cols-6 min-[1440px]:place-content-stretch min-[1440px]:place-items-stretch min-[1440px]:content-stretch min-[1440px]:justify-stretch min-[1440px]:justify-items-stretch min-[1440px]:gap-[20px] min-[1440px]:rounded-[50px] min-[1440px]:bg-black min-[1440px]:p-[50px]">
+      <div className="flex h-fit flex-col items-center min-[1280px]:gap-[20px] min-[1280px]:pt-[50px] min-[1366px]:flex-row">
+        <div className="mt-[40px] flex flex-col items-center gap-[10px] min-[1280px]:mt-[0px] min-[1280px]:grid min-[1280px]:grid-flow-row min-[1280px]:grid-cols-6 min-[1280px]:place-content-stretch min-[1280px]:place-items-stretch min-[1280px]:content-stretch min-[1280px]:justify-stretch min-[1280px]:justify-items-stretch min-[1280px]:gap-[20px] min-[1280px]:rounded-[50px] min-[1280px]:bg-black min-[1280px]:p-[50px]">
           {cards.map((card, index) => (
             <div
               key={`features-card-${index}`}
               className={cn(
-                "flex h-full flex-col gap-[10px] rounded-[20px] bg-black p-[20px] min-[1440px]:bg-[#110C15] min-[1440px]:px-[30px] min-[1440px]:py-[20px]",
+                "flex h-full flex-col gap-[10px] rounded-[20px] bg-black p-[20px] min-[1280px]:bg-[#110C15] min-[1280px]:px-[30px] min-[1280px]:py-[20px]",
                 (index === 0 || index === 1) && "col-span-3",
                 index !== 0 && index !== 1 && "col-span-2",
               )}
             >
               <div className="flex flex-row items-center gap-[15px]">
                 {card.logo}
-                <h4 className="text-[18px] font-normal leading-[21.6px] text-white min-[1440px]:text-[24px] min-[1440px]:leading-[28.8px]">
+                <h4 className="text-[18px] font-normal leading-[21.6px] text-white min-[1280px]:text-[24px] min-[1280px]:leading-[28.8px]">
                   {card.title}
                 </h4>
               </div>
-              <p className="h-full text-[15px] font-normal leading-[22.5px] text-[#FFFFFF99] min-[1440px]:text-[16px] min-[1440px]:leading-[24px]">
+              <p className="h-full text-[15px] font-normal leading-[22.5px] text-[#FFFFFF99] min-[1280px]:text-[16px] min-[1280px]:leading-[24px]">
                 {card.description}
               </p>
             </div>
@@ -75,12 +75,7 @@ export default function FeaturesCards() {
         <Image
           src={SmtGIF}
           alt="gifdesktop"
-          className="hidden h-[389px] rounded-[50px] bg-cover object-cover min-[1440px]:block"
-        />
-        <Image
-          src={SmtGIF}
-          alt="gif"
-          className="mt-[20px] block rounded-[50px] min-[1440px]:hidden"
+          className="w-[1366px]:w-auto mt-[20px] rounded-[50px] bg-cover object-cover min-[1280px]:mt-[0px] min-[1280px]:w-[35%] min-[1366px]:w-[22%] min-[1440px]:h-[389px] min-[1440px]:w-auto"
         />
       </div>
     </div>

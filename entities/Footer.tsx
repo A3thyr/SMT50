@@ -8,12 +8,12 @@ import TwitterIconDefFoot from "@/public/twittericondef.svg";
 
 export default function Footer() {
   return (
-    <footer className="font-montserrat flex w-full flex-col items-center justify-center gap-[20px] pb-[100px] pt-[50px] min-[1440px]:pt-[250px]">
-      <div className="shadow-footerShadows flex w-full flex-col items-center justify-center gap-[25px] rounded-[20px] bg-black pb-[20px] pt-[15px] min-[1440px]:flex-row min-[1440px]:justify-between min-[1440px]:px-[50px]">
+    <footer className="flex w-full flex-col items-center justify-center gap-[20px] pb-[100px] pt-[50px] font-montserrat min-[1280px]:pt-[250px]">
+      <div className="flex w-full flex-col items-center justify-center gap-[25px] rounded-[20px] bg-black pb-[20px] pt-[15px] shadow-footerShadows min-[1280px]:flex-row min-[1280px]:justify-between min-[1280px]:px-[50px]">
         <Image src={logo} alt="logo" />
-        <div className="flex flex-col items-center gap-[22px] text-white min-[1440px]:flex-row min-[1440px]:gap-[60px] min-[1440px]:pr-[100px]">
+        <div className="flex flex-col items-center gap-[22px] text-white min-[1280px]:flex-row min-[1280px]:gap-[60px] min-[1280px]:pr-[100px]">
           <span className="text-[24px] font-bold leading-[31.2px]">JOIN THE COMMUNITY</span>
-          <span className="text-[18px] font-medium leading-[16px] min-[1440px]:text-[20px]">
+          <span className="text-[18px] font-medium leading-[16px] min-[1280px]:text-[20px]">
             Get ready to level up with SMT50
           </span>
         </div>

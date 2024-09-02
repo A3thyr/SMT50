@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main
       className={cn(
-        "flex min-h-screen flex-col items-center px-[15px] pt-[0.5rem] min-[1440px]:px-[75px] min-[1750px]:px-[193px]",
+        "flex min-h-screen flex-col items-center px-[15px] pt-[0.5rem] min-[1280px]:px-[50px] min-[1440px]:px-[75px] min-[1750px]:px-[193px]",
         "mobileBg",
         "desktopBg",
       )}
