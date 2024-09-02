@@ -69,7 +69,7 @@ export default function Unique() {
   const [isSlide, setIsSlide] = useState(0);
 
   return (
-    <div className="flex flex-col items-center gap-[40px] pt-[100px] font-montserrat min-[1440px]:items-start min-[1440px]:gap-[50px] min-[1440px]:pt-[250px]">
+    <div className="flex flex-col items-center gap-[40px] pt-[100px] font-montserrat min-[1440px]:items-start min-[1440px]:gap-[50px] min-[1440px]:pt-[450px] min-[1750px]:pt-[250px]">
       <h2 className="bg-text-bluenwhite-radgrad bg-clip-text text-center font-manrope text-[30px] font-medium leading-[36px] text-transparent min-[1440px]:text-start min-[1440px]:text-[50px] min-[1440px]:leading-[60px]">
         What makes the SMT50 unique
       </h2>
