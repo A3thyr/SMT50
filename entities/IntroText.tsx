@@ -17,7 +17,7 @@ export default function IntroText() {
           relevant and popular meme coins
         </p>
       </div>
-      <div className="z-[10] flex flex-row gap-[10px] pt-[30px] min-[1280px]:w-[55%] min-[1280px]:gap-[20px] min-[1280px]:pt-[50px] min-[1440px]:w-[50%] min-[1750px]:w-[39%]">
+      <div className="z-[10] flex flex-row gap-[10px] pt-[30px] min-[1280px]:w-[52%] min-[1280px]:gap-[20px] min-[1280px]:pt-[50px] min-[1440px]:w-[50%] min-[1600px]:w-[45%] min-[1750px]:w-[39%]">
         <button className="rounded-[100px] bg-standBtnGrad px-[28px] py-[18px] text-center text-[18px] font-semibold leading-[24px] text-white transition-all hover:shadow-buttonHoverShadow active:bg-activeButtonGrad active:shadow-none min-[1280px]:w-[55%] min-[1440px]:w-[61%]">
           Mint Index Key
         </button>
@@ -38,12 +38,12 @@ export default function IntroText() {
       <Image
         src={CirclePngDesk}
         alt="circlepngdesk"
-        className="absolute right-0 hidden min-[1024px]:block min-[1280px]:top-[650px] min-[1750px]:top-auto"
+        className="absolute right-0 hidden min-[1024px]:block min-[1280px]:top-[250px] min-[1280px]:w-[650px] min-[1440px]:w-[700px] min-[1600px]:w-[800px] min-[1650px]:w-[870px] min-[1700px]:w-[900px] min-[1850px]:top-[312px] min-[1850px]:h-auto min-[1850px]:w-auto"
       />
       <Image
         src={MemeCoinDesk}
         alt="memecoinsdesk"
-        className="absolute right-[63px] hidden min-[1024px]:block min-[1280px]:top-[512px] min-[1750px]:top-[112px]"
+        className="absolute right-[63px] hidden min-[1024px]:block min-[1280px]:top-[142px] min-[1280px]:w-[500px] min-[1440px]:w-[540px] min-[1600px]:w-[640px] min-[1650px]:w-[700px] min-[1700px]:w-[720px] min-[1850px]:top-[112px] min-[1850px]:h-auto min-[1850px]:w-auto"
       />
     </div>
   );
