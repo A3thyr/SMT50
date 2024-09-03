@@ -8,13 +8,13 @@ import { cn } from "@/shared/lib/utils/cn";
 export default function IntroText() {
   return (
     <div className="flex flex-col items-center pt-[50px] font-montserrat min-[1280px]:items-start min-[1280px]:pt-[130px]">
-      <div className="z-[2] flex flex-col gap-[15px] min-[1280px]:w-[70%] min-[1280px]:items-start min-[1440px]:w-[65%] min-[1440px]:gap-[30px] min-[1750px]:w-[47%]">
+      <div className="z-[2] flex flex-col gap-[15px] min-[1280px]:w-[70%] min-[1280px]:items-start min-[1440px]:w-[65%] min-[1440px]:gap-[30px] min-[1750px]:w-[55%]">
         <p className="bg-text-bluenwhite-radgrad bg-clip-text text-center font-manrope text-[35px] font-medium leading-[42px] text-transparent min-[1280px]:text-start min-[1280px]:text-[75px] min-[1280px]:leading-[90px]">
           Invest in a diversified portfolio of SMT50 memecoins easily
         </p>
         <p className="text-center text-[15px] font-normal leading-[22.5px] text-white min-[1280px]:text-start min-[1280px]:text-[24px] min-[1280px]:leading-[36px]">
-          The index is regularly updated, ensuring that it always represents the most relevant and
-          popular meme coins
+          The index is regularly updated, ensuring that it always <br /> represents the most
+          relevant and popular meme coins
         </p>
       </div>
       <div className="z-[10] flex flex-row gap-[10px] pt-[30px] min-[1280px]:w-[55%] min-[1280px]:gap-[20px] min-[1280px]:pt-[50px] min-[1440px]:w-[50%] min-[1750px]:w-[39%]">
